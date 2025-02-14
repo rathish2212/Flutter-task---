@@ -33,7 +33,7 @@ def sum(num):
     total = 0
     while num > 0:
         total += num % 10 
-        num          
+        num //= 10        
     return total
 num = 641108
 result = sum(num)
