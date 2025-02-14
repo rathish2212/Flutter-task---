@@ -9,7 +9,6 @@ void main() {
   }
   print(" The total count of negative elements: $count");
 }
-
 // output:
 // The total count of negative elements: 2
 
@@ -25,6 +24,20 @@ void main() {
   }
   print(' The reversed String is: $reverse');
 }
-
 //output:
 //The reversed string is:BeliveYourself
+
+
+//problem 3(python)
+def sum(num):
+    total = 0
+    while num > 0:
+        total += num % 10 
+        num          
+    return total
+num = 641108
+result = sum(num)
+print(f"Sum of digits in {num} is: {result}")
+//output
+//Sum of digits in 641108 is: 20
+
